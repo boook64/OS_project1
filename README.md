@@ -23,4 +23,4 @@ sudo ./main
 ## Demo
 
 * Run demo: ```sudo ./demo/run_demo.sh```
-* Demo video: ./demo/demo.mp4
+* Demo video: ```./demo/demo.mp4```
