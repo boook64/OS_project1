@@ -7,4 +7,4 @@ main: scheduler.c scheduler.h process.o
 	gcc -std=c11 -W -Wall -Wextra -g -O3 scheduler.c process.o -o main
 
 clean:
-	rm process.o main 
+	rm process.o main -f

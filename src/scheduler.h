@@ -7,6 +7,7 @@
 #include <assert.h>
 #include <string.h>
 #include <sys/wait.h>
+#include <sys/syscall.h>
 
 struct Process {
 	char name[32];

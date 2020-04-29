@@ -23,7 +23,7 @@ int main() {
 		ps[i].isrun = 0;
 		ps[i].isfork = 0;
 	}
-
+	
 	qsort((void *)ps, n, sizeof(struct Process), CmpReadyTime);
 	SetPidCPU(getpid(), 0);
 
